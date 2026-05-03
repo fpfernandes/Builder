@@ -1,0 +1,22 @@
+{
+  "name": "builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test:bdd": "cucumber-js",
+  "test:ci": "cucumber-js --format progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "playwright": "^1.59.1"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.11.2",
+    "@cucumber/cucumber": "^12.8.1",
+    "axe-html-reporter": "^2.2.11"
+  }
+}
