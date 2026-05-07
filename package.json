@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test:bdd": "cucumber-js",
-  "test:ci": "cucumber-js --format progress"
+  "test:bdd": "node ./node_modules/@cucumber/cucumber/bin/cucumber.js",
+  "test:ci": "node ./node_modules/@cucumber/cucumber/bin/cucumber.js --format progress"
   },
   "keywords": [],
   "author": "",
