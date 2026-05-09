@@ -1,9 +1,9 @@
 module.exports = {
   default: {
     require: [
+      'features/hooks.js',
       'features/support/**/*.js',
-      'features/steps/**/*.js',
-      'hooks.js'
+      'features/support/steps/**/*.js'
     ],
     format: [
       'progress',

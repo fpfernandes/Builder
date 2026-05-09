@@ -1,0 +1,720 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "acessibilidade-do-curso-builder;validação-de-acessibilidade-do-curso-builder",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Validação de acessibilidade do curso Builder",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1052983799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou acessando o \"https://builderstudio-qa-prod.smartlms.com.br/preview/project/452?page=3337\" do \"Prévia | Copia_Fundamentos do ESG_Teste\" gerado pela Builder",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19726103400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "executo a análise de tags semânticas na página",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3914612299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "devo encontrar tags semânticas aplicadas corretamente",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 714499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "executo a análise de atributo alt em imagens na página",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3586818499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "cada imagem deve conter atributo alt com descrição significativa",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 604999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "executo a análise de títulos na página",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3611271300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "os títulos devem estar em hierarquia lógica e significativa",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 526599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "executo a análise de links na página",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3612926899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "os links devem ser claros e descritivos",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 516900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "executo a análise de elementos interativos na página",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3641228000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "os elementos interativos devem ser acessíveis por teclado",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:159"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 673699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "executo a análise de Aria e nomes acessíveis válidos na página",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:188"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3600079400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "os elementos devem possuir Aria e nomes acessíveis válidos",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 461699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "executo a análise completa de acessibilidade da página",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:226"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3637743500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "gero o \"acessibilidade-Curso1.html\" consolidado de acessibilidade em HTML",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:232"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10674399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 72413899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "acessibilidade-do-curso-builder;validação-de-acessibilidade-do-curso-builder",
+        "keyword": "Scenario Outline",
+        "line": 37,
+        "name": "Validação de acessibilidade do curso Builder",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 157859199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou acessando o \"https://builderstudio-qa-prod.smartlms.com.br/preview/project/10?page=37\" do \"Prévia | LF2023.04 - Assédio Moral e Sexual - Tudo o que sua equipe precisa saber\" gerado pela Builder",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18568696300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "executo a análise de tags semânticas na página",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3859205600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "devo encontrar tags semânticas aplicadas corretamente",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 428799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "executo a análise de atributo alt em imagens na página",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3639494099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "cada imagem deve conter atributo alt com descrição significativa",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9872499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "executo a análise de títulos na página",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3616673999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "os títulos devem estar em hierarquia lógica e significativa",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 472500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "executo a análise de links na página",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3606470000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "os links devem ser claros e descritivos",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 339800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "executo a análise de elementos interativos na página",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3574446500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "os elementos interativos devem ser acessíveis por teclado",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:159"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 428700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "executo a análise de Aria e nomes acessíveis válidos na página",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:188"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3587864799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "os elementos devem possuir Aria e nomes acessíveis válidos",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1298000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "executo a análise completa de acessibilidade da página",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:226"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3593758900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "gero o \"acessibilidade-Curso2.html\" consolidado de acessibilidade em HTML",
+            "match": {
+              "location": "features\\support\\steps\\acessibilidade.steps.js:232"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8458100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 63083100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "acessibilidade-do-curso-builder",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Acessibilidade do curso Builder",
+    "tags": [],
+    "uri": "features\\acessibilidade.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "requisitos-não-funcionais---usabilidade;cenario-038---localização-rápida-de-informações",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Cenario 038 - Localização rápida de informações",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 162808199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou acessando um curso gerado pela Builder",
+            "match": {
+              "location": "features\\support\\steps\\usabilidade.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17065053399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "abro o painel de acessibilidade",
+            "match": {
+              "location": "features\\support\\steps\\usabilidade.steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51396500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "procuro pela opção \"Alto contraste\" usando TAB em menos de três interações",
+            "match": {
+              "location": "features\\support\\steps\\usabilidade.steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1768751300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "o rótulo textual deve ser claro e descritivo",
+            "match": {
+              "location": "features\\support\\steps\\usabilidade.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2341599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 49298899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@localizacao",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "requisitos-não-funcionais---usabilidade;cenario-039---consistência-de-interface",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Cenario 039 - Consistência de interface",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 169378800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou acessando um curso gerado pela Builder",
+            "match": {
+              "location": "features\\support\\steps\\usabilidade.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17241153099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "navego entre diferentes módulos do curso",
+            "match": {
+              "location": "features\\support\\steps\\usabilidade.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "a interface deve manter consistência visual e funcional",
+            "match": {
+              "location": "features\\support\\steps\\usabilidade.steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "os elementos devem estar sempre na mesma posição relativa",
+            "match": {
+              "location": "features\\support\\steps\\usabilidade.steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24448552400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 66597200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@consistencia",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "requisitos-não-funcionais---usabilidade;cenario-040---feedback-imediato-e-claro",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Cenario 040 - Feedback imediato e claro",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 175499599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou acessando um curso gerado pela Builder",
+            "match": {
+              "location": "features\\support\\steps\\usabilidade.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16874160700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "ativo a funcionalidade de acessibilidade",
+            "match": {
+              "location": "features\\support\\steps\\usabilidade.steps.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43300799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "aplico as configurações e o efeito deve ser aplicado em tempo real",
+            "match": {
+              "location": "features\\support\\steps\\usabilidade.steps.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6978456099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "devo receber feedback visual ou textual confirmando a ação",
+            "match": {
+              "location": "features\\support\\steps\\usabilidade.steps.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9617100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 53502399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feedback",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "requisitos-não-funcionais---usabilidade",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Requisitos não funcionais - Usabilidade",
+    "tags": [],
+    "uri": "features\\usabilidade.feature"
+  }
+]
