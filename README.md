@@ -65,10 +65,3 @@ Examples:
 - reports/acessibilidade-Curso1.html
 - reports/acessibilidade-Curso2.html
 
-## Notes
-
-The tests run against Builder's quality environment and depend on the URLs and credentials configured in the automation steps. If the environment changes, these values may need to be adjusted in the support files.
-
-## License
-
-This project is licensed under ISC.
