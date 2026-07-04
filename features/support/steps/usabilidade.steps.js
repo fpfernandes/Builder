@@ -15,7 +15,7 @@ Given('que estou acessando um curso gerado pela Builder', async function () {
   await this.page.goto("https://builderstudio-qa-prod.smartlms.com.br/")
 
   await this.loginPage.titulo_pagina()
-  await this.loginPage.login('usuario.iterasys', 'Iterasys@123')
+  await this.loginPage.login('', '')
   await this.loginPage.botao_login()
 
   await this.page.waitForLoadState('networkidle')
